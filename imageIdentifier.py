@@ -2,7 +2,6 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image, ImageOps
-from teachable_machine import TeachableMachine
 import h5py
 
 # Necesario porque arregla un error en el modelo.
