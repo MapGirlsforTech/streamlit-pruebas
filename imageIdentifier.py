@@ -1,7 +1,5 @@
 import streamlit as st
 import tensorflow as tf
-from tensorflow import keras
-import requests
 import numpy as np
 from PIL import Image, ImageOps
 from teachable_machine import TeachableMachine
@@ -27,7 +25,7 @@ st.title("Image Classification")
 # np.set_printoptions(suppress=True)
 
 # Load the model
-model = keras.models.load_model("model/keras_model.h5")
+model = tf.keras.models.load_model("model/keras_model.h5")
 
 # Load the labels
 class_names = open("model/labels.txt", "r").readlines()
