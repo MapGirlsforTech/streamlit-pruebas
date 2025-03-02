@@ -1,0 +1,3 @@
+0 Pronador
+1 Supinador
+2 Normal
