@@ -11,7 +11,7 @@ imageIdentifier = st.Page(
 # Con esto configuro a mano las paginas pudiendo customizar el titulo e icono
 pg = st.navigation(
     {
-        "": [home, imageIdentifier],
+        "": [home, imageIdentifier]
 
     }
 )
