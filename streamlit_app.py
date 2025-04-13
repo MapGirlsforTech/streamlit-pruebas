@@ -6,7 +6,7 @@ imageIdentifier = st.Page(
     "imageIdentifier.py", title="Identificador", icon="🔥"
 )
 
-# Funciona como router, desde aca se renderizan las paginas
+# Funciona como router, desde aqui se renderizan las paginas
 
 # Con esto configuro a mano las paginas pudiendo customizar el titulo e icono
 pg = st.navigation(

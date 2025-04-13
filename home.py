@@ -111,3 +111,13 @@ with col2:
     st.image("./images/Logo-Circular-WEB_OK.png", use_container_width=True)
 
 # st.image("./images/Logo-Circular-WEB_OK.png", width=400)
+
+# Dos columnas
+col1, col2 = st.columns([1, 1])
+# Usar la columna central para colocar la imagen
+with col1:
+    st.image("./images/ODS-03.png", use_container_width=True)
+with col2:
+    st.image("./images/ODS-05.png", use_container_width=True)
+
+    
